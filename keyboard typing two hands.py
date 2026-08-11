@@ -2,7 +2,7 @@
 import math
 with open("scrabble.txt") as f:
     all_words = [line.strip() for line in f]
-length = 15 # edit this to be the length of words you want it to check; ensure that it isn’t set to 1, because you will get a division-by-zero error
+length = 0 # edit this to be the length of words you want it to check; ensure that it isn’t set to 1, because you will get a division-by-zero error
 words = []
 for word in all_words:
     if len(word) == length:
